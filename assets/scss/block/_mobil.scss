@@ -1,0 +1,31 @@
+.mobil {
+    display: flex;
+    justify-content: center;
+    padding-top: 165px;
+    gap: 25px;
+
+    &_our {
+        font-family: Rubik;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        mark {
+            background-color: transparent;
+            color: #FF7A50;
+        }
+    }
+
+    &_at {
+        padding-top: 30px;
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #363853;
+    }
+}

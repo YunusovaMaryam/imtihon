@@ -1,0 +1,21 @@
+.our {
+    display: flex;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    mark {
+        background-color: transparent;
+        color: #FF7A50;
+    }
+    .popular:hover{
+        color: #FF7A50;
+    }
+    mark:hover{
+        color: #363853;
+    }
+}

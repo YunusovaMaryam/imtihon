@@ -1,0 +1,59 @@
+.main_text {
+    padding-top: 220px;
+    gap: 104px;
+
+    .main_f {
+        display: flex;
+        justify-content: center;
+    }
+
+    mark {
+        background: #fff;
+        color: #FF7A50;
+    }
+
+    .main_f p :nth-child(2) {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #363853;
+    }
+
+    p :nth-child(1):hover {
+        color: #FF7A50;
+    }
+
+    mark:hover {
+        color: #363853;
+    }
+
+    .main_btn {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #FF7A50;
+        width: 163px;
+        height: 50.41px;
+        border-radius: 5px;
+    }
+
+    .main_btn:hover {
+        box-shadow: 4px 11px 41px 3px #fd8d6b;
+    }
+
+    .main_title:hover {
+        width: 124px;
+        height: 1px;
+        top: 54.36px;
+        left: 135px;
+        background-color: #363853;
+    }
+}
+

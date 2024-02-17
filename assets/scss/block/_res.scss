@@ -1,0 +1,108 @@
+.res {
+    align-items: center;
+
+    &_top {
+        padding-left: 540px;
+        font-family: Rubik;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 50px;
+
+        mark {
+            background-color: transparent;
+            color: #FF7A50;
+        }
+    }
+
+    &_menu {
+        display: flex;
+        justify-content: center;
+        gap: 43px;
+        margin-top: 50px;
+    }
+
+    &_menu li {
+        width: 361px;
+        height: 417px;
+        top: 2563px;
+        background-color: #fff;
+        left: 539px;
+    }
+
+    &_menu li:hover {
+        border-radius: 53px 5px;
+        box-shadow: 2px 3px 33px -15px;
+    }
+
+    &_menu p {
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: #363853;
+    }
+
+    &_time {
+        display: flex;
+        gap: 8px;
+
+        p {
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #363853;
+        }
+    }
+
+    &_bur {
+        display: flex;
+        justify-content: center;
+        gap: 43px;
+        margin-top: 43px;
+    }
+
+    &_bur li {
+        width: 361px;
+        height: 417px;
+        top: 2563px;
+        background-color: #fff;
+        left: 539px;
+
+    }
+
+    &_bur li:hover {
+        border-radius: 53px 5px;
+        box-shadow: 2px 3px 33px -15px;
+    }
+
+    &_bur p {
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: #363853;
+    }
+
+    &_time {
+        display: flex;
+        gap: 8px;
+
+        p {
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #363853;
+        }
+    }
+}
